@@ -1,5 +1,5 @@
 import requests
-usr_input='amoz.official'
+usr_input=input('please provide the username that you would like to search \n')
 file=open('all_web.txt','r')
 for lines in file.readlines():
     try:
